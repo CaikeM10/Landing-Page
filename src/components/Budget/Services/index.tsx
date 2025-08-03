@@ -5,7 +5,7 @@ export default function Services() {
         <section className={styles.container}>
             <div className={styles.content}>
                 <div className={styles.top}>
-                    <button>Orçamento Grátis</button>
+                    <button>Orçamento Grátis!</button>
                     <h2>
                         Vamos Construir o Seu <span>Sucesso Digital</span>
                     </h2>
@@ -18,13 +18,13 @@ export default function Services() {
                 <div className={styles.bottom}>
                     <div className={styles.card}>
                         <div className={styles.cardTop}>
-                            <h3>Sites Institucionais</h3>
+                            <h3>Sites Personalizados e Institucionais</h3>
                             <img src="/arrow3.svg" alt="arrow" />
                         </div>
                         <p>
                             Sites profissionais e personalizados para empresas
                             que desejam ter uma presença online sólida e
-                            confiável.
+                            confiável do jeito que o seu negócio merece.
                         </p>
                     </div>
 
@@ -35,7 +35,7 @@ export default function Services() {
                         </div>
                         <p>
                             Páginas de alta conversão para campanhas e capturas
-                            de leads, projetadas para impulsionar resultados.
+                            de leads, projetadas para impulsionar os seus resultados.
                         </p>
                     </div>
 

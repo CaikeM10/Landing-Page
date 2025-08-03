@@ -16,7 +16,7 @@ export default function SwiperDesktop() {
             <div className={styles.content}>
                 <div className={styles.title}>
                     <h2>
-                        o que nossos <span>clientes</span> dizem
+                        Veja o que nossos <span>clientes</span> dizem
                     </h2>
                     <p>
                         Nossos clientes são a nossa maior fonte de motivação.
@@ -48,49 +48,49 @@ export default function SwiperDesktop() {
                     >
                         <SwiperSlide>
                             <img
-                                src="/testimony1.jpg"
+                                src="/"
                                 alt="Client Feedback 1"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony2.jpg"
+                                src="/"
                                 alt="Client Feedback 2"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony3.jpg"
+                                src="/"
                                 alt="Client Feedback 3"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony5.PNG"
+                                src="/"
                                 alt="Client Feedback 4"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony6.PNG"
+                                src="/"
                                 alt="Client Feedback 4"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony7.PNG"
+                                src="/"
                                 alt="Client Feedback 4"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony8.PNG"
+                                src="/"
                                 alt="Client Feedback 4"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony9.PNG"
+                                src="/"
                                 alt="Client Feedback 4"
                             />
                         </SwiperSlide>

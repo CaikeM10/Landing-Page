@@ -16,7 +16,7 @@ export default function SwiperMobile() {
             <div className={styles.content}>
                 <div className={styles.title}>
                     <h2>
-                        o que nossos <span>clientes</span> dizem
+                        Veja o que nossos <span>clientes</span> dizem
                     </h2>
                     <p>
                         Nossos clientes são a nossa maior fonte de motivação.
@@ -43,6 +43,7 @@ export default function SwiperMobile() {
                         modules={[Autoplay]} // Inclui o módulo Autoplay
                         className="customSwiper"
                     >
+
                         <SwiperSlide>
                             <img
                                 src="/testimony1.jpg"

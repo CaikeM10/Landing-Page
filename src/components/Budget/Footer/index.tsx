@@ -28,7 +28,7 @@ const Footer = () => {
                     </button>
                     <hr />
                     <div className={styles.rights}>
-                        <span>Todos os direitos reservados</span>
+                        <span>Caike Marinho - Soluções Web. Todos os direitos reservados</span>
                     </div>
                 </div>
             </section>

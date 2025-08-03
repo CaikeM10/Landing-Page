@@ -1,6 +1,7 @@
 .container {
     background: #030303;
-    background-image: url('/bannerD.webp');
+    // Fundo para o banner na versão mobile
+    background-image: url('/');
     background-size: cover;
     height: 100vh;
     background-position: calc(50% - 20px) -130px;
@@ -20,7 +21,7 @@
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
-    line-height: 97.5%;
+    line-height: 97.5%; 
     text-transform: uppercase;
     width: 50%;
 }

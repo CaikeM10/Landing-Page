@@ -68,7 +68,7 @@ const HeaderFixed = () => {
             <div className={styles.content}>
                 <div className={styles.title}>
                     <p>Promoção</p>
-                    <span>do rei</span>
+                    <span>No Seu Primeiro Site</span>
                 </div>
                 <div className={styles.countDown}>
                     <div className={styles.block}>
