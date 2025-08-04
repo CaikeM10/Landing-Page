@@ -46,7 +46,7 @@ export default function SwiperMobile() {
 
                         <SwiperSlide>
                             <img
-                                src="/testimony1.jpg"
+                                src="/feedback1.jpg"
                                 alt="Client Feedback 1"
                             />
                         </SwiperSlide>
