@@ -18,8 +18,7 @@ export default function Who() {
                 <div className={styles.content}>
                     <div className={styles.images}>
                         <img src="/" alt="three" />
-                        <img src="/
-                            " alt="one" />
+                        <img src="/ " alt="one" />
                     </div>
                     <div className={styles.text}>
                         <h3>sobre</h3>
