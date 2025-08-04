@@ -46,49 +46,49 @@ export default function SwiperMobile() {
 
                         <SwiperSlide>
                             <img
-                                src="/feedback1.jpg"
+                                src="/"
                                 alt="Client Feedback 1"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony2.jpg"
+                                src="/"
                                 alt="Client Feedback 2"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony3.jpg"
+                                src="/"
                                 alt="Client Feedback 3"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony5.PNG"
+                                src="/cliente1.jpg"
                                 alt="Client Feedback 4"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony6.PNG"
+                                src="/feedback2.jpg"
                                 alt="Client Feedback 4"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony7.PNG"
+                                src="/feedback3.jpg"
                                 alt="Client Feedback 4"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony8.PNG"
+                                src="/feedback4.jpg"
                                 alt="Client Feedback 4"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/testimony9.PNG"
+                                src="/feedback5.jpg "
                                 alt="Client Feedback 4"
                             />
                         </SwiperSlide>

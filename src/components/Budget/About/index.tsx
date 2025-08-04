@@ -54,7 +54,7 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <img src="/mockupWebsite.svg" />
+                        <img src="/landing page.png" />
                     </div>
                 </div>
                 <img src="/aboutLine.svg" className={styles.imgLine} />

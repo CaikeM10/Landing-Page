@@ -48,49 +48,37 @@ export default function SwiperDesktop() {
                     >
                         <SwiperSlide>
                             <img
-                                src="/"
+                                src="/cliente1.jpg"
                                 alt="Client Feedback 1"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/"
+                                src="/feedback2.jpg"
                                 alt="Client Feedback 2"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                src="/"
+                            <img    
+                                src="/feedback3.jpg"
                                 alt="Client Feedback 3"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/"
+                                src="/feedback4.jpg"
                                 alt="Client Feedback 4"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/"
+                                src="/feedback5.jpg"
                                 alt="Client Feedback 4"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/"
-                                alt="Client Feedback 4"
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img
-                                src="/"
-                                alt="Client Feedback 4"
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img
-                                src="/"
+                                src="/feedback6.jpg"
                                 alt="Client Feedback 4"
                             />
                         </SwiperSlide>
