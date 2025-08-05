@@ -17,8 +17,8 @@ export default function Who() {
             <section className={styles.container}>
                 <div className={styles.content}>
                     <div className={styles.images}>
-                        <img src="/" alt="three" />
-                        <img src="/ " alt="one" />
+                        <img src="/saudedigital.jpg" alt="three" />
+                        <img src="/saudedigital.jpg" alt="one" />
                     </div>
                     <div className={styles.text}>
                         <h3>sobre</h3>

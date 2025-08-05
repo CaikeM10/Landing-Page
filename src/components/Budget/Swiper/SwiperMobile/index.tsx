@@ -46,38 +46,21 @@ export default function SwiperMobile() {
 
                         <SwiperSlide>
                             <img
-                                src="/"
+                                src="/cliente1.jpg"
                                 alt="Client Feedback 1"
-                            />
+                            />  
+                            
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/"
+                                src="/feedback2.jpg"
                                 alt="Client Feedback 2"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/"
-                                alt="Client Feedback 3"
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img
-                                src="/cliente1.jpg"
-                                alt="Client Feedback 4"
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img
-                                src="/feedback2.jpg"
-                                alt="Client Feedback 4"
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img
                                 src="/feedback3.jpg"
-                                alt="Client Feedback 4"
+                                alt="Client Feedback 3"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
@@ -88,9 +71,22 @@ export default function SwiperMobile() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="/feedback5.jpg "
+                                src="/feedback5.jpg"
                                 alt="Client Feedback 4"
                             />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img
+                                src="/feedback6.jpg"
+                                alt="Client Feedback 4"
+                            />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                         
+                            
+                        </SwiperSlide>
+                        <SwiperSlide>
+                        
                         </SwiperSlide>
                     </Swiper>
                     <div className={styles.gradientRight}></div>
