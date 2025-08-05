@@ -26,17 +26,13 @@ export default function Who() {
                             quem é <span>Caike Marinho</span>
                         </h2>
                         <p>
-                            Caike Marinho é um jovem empreendedor e acadêmico  de Análise e Desenvolvimento de Sistemas.   Desde cedo, ele sempre teve
-                            curiosidade por aprender coisas novas em 2022 conheceu a programação, tecnologia e inovação, o que o levou a criar sua própria empresa de Desenvolvimento Web.
+                            Caike Marinho é um jovem empreendedor e acadêmico de Análise e Desenvolvimento de Sistemas com uma paixão por tecnologia, programação e inovação. Sua jornada no universo digital começou em 2022, quando a curiosidade por aprender coisas novas o levou a fundar sua própria empresa de Desenvolvimento Web.
                         </p>
                         <p>
-                            Foi lá que ele descobriu sua paixão pela criação de
-                            Sites, Landing Pages e Sistemas e decidiu investir nesse ramo. Com muita
-                            dedicação e esforço, Caike junto com os seus amigos em 2025 fundaram a empresa CodeCrat para impulsionar negócios online.
+                          Nesse período, ele descobriu sua vocação para a criação de sites, landing pages e sistemas, e decidiu investir profundamente nesse ramo. Com dedicação e esforço, em 2025, Caike se uniu a amigos para fundar a <strong>CodeCrat</strong>, com a missão de impulsionar negócios online.
                         </p>
                         <p>
-                            Obtendo RESULTADOS REAIS, desde então ele tem se dedicado a ajudar empresas a
-                            crescerem online, oferecendo soluções personalizadas e de alta qualidade. 
+                           Desde então, ele tem se dedicado a entregar resultados reais para seus clientes, oferecendo soluções personalizadas e de alta qualidade que ajudam empresas a crescerem no ambiente digital.
                         </p>
                         <button onClick={handleModalOpen}>
                             fazer orçamento     
