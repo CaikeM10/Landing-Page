@@ -44,7 +44,7 @@ const BannerDesktop = () => {
                     </div>
 
                     <div className={styles.rightSide}>
-                        <img src="/" />
+                        <img src="/" alt='img banner'/>
                     </div>
                 </div>
             </section>
