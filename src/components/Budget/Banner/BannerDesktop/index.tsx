@@ -21,7 +21,7 @@ const BannerDesktop = () => {
                         <div className={styles.titleBanner}>
                             <div className={styles.gridBackground}>
                                 <button className={styles.orcamento}>
-                                    • Orçamento Grátis!
+                                    • Orçamento Grátis! •
                                 </button>
                                 <h1>
                                     Crie seu site ideal e veja seu negócio
@@ -44,9 +44,9 @@ const BannerDesktop = () => {
                     </div>
 
 
-                    /alterar a imagem do banner
+                   
                     <div className={styles.rightSide}>
-                        <img src="/BannerCaike.png" alt="img banner"/>
+                        <img src="/atualizadoBanner.png" alt="img banner"/>
                     </div>
                 </div>
             </section>

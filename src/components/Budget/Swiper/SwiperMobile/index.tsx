@@ -43,7 +43,6 @@ export default function SwiperMobile() {
                         modules={[Autoplay]} // Inclui o módulo Autoplay
                         className="customSwiper"
                     >
-
                         <SwiperSlide>
                             <img
                                 src="/cliente1.jpg"

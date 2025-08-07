@@ -18,7 +18,7 @@ const BannerMobile = () => {
                 <div className={styles.titleBanner}>
                     <div className={styles.gridBackground}>
                         <button className={styles.orcamento}>
-                            • Orçamento Grátis!• 
+                            • Orçamento Grátis! • 
                         </button>
                         <h1>
                             Crie seu site ideal e veja seu negócio crescer
