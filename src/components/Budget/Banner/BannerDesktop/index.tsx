@@ -43,14 +43,16 @@ const BannerDesktop = () => {
                         </div>
                     </div>
 
+
+                    /alterar a imagem do banner
                     <div className={styles.rightSide}>
-                        <img src="/" alt='img banner'/>
+                        <img src="/BannerCaikeM.png" alt="img banner"/>
                     </div>
                 </div>
             </section>
             {isModalOpen && <ModalForm onClose={handleModalClose} />}
         </>
     );
-};
+};      
 
 export default BannerDesktop;
