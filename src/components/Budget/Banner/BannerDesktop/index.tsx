@@ -46,7 +46,7 @@ const BannerDesktop = () => {
 
                     /alterar a imagem do banner
                     <div className={styles.rightSide}>
-                        <img src="/BannerCaikeM.png" alt="img banner"/>
+                        <img src="/BannerCaike.png" alt="img banner"/>
                     </div>
                 </div>
             </section>
