@@ -162,10 +162,3 @@ $white: #ffffff;
         background-position: 0% 0%;
     }
 }
-
-@media (min-width: 768px) {
-    .close {
-        display: block !important;
-        z-index: 9999 !important; /* Garante que ele fique acima de todos os outros elementos */
-    }
-}
