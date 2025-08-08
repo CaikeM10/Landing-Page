@@ -17,7 +17,7 @@ export default function Who() {
             <section className={styles.container}>
                 <div className={styles.content}>
                     <div className={styles.images}>
-                        <img src="/atualizadoBanner.png" alt="three" />
+                        <img src="/imgcm3.jpg" alt="three" />
                         <img src="/saudedigital.jpg" alt="one" />
                     </div>
                     <div className={styles.text}>
