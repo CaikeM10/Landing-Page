@@ -8,7 +8,7 @@ const BannerDesktop = () => {
     const handleModalOpen = () => {
         setIsModalOpen(true);
     };
-
+    
     const handleModalClose = () => {
         setIsModalOpen(false);
     };

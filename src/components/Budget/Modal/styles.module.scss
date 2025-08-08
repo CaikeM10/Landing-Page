@@ -45,30 +45,30 @@ $white: #ffffff;
 }
 
 .backgroundImage {
-    position: absolute;
-    top: -20%;
-    right: -35%;
-    width: 150%;
-    height: 110%;
-
-    //background do botão para entrar em contato
-    background: url('/atualizadoBanner.png') no-repeat;
-    background-size: cover;
-    z-index: 1;
-    opacity: 1;
-    overflow: hidden;
+  position: absolute;
+  top: 0;   // Inicia do topo
+  right:0; // Inicia da direita
+  width: 100%; // Preenche a largura do contêiner
+  height: 90%; // Preenche a altura do contêiner
+  background: url('/atualizadoBanner.png') no-repeat;
+  background-size: cover; // Garante que a imagem cubra a área sem distorcer
+  background-position: center; // Centraliza a imagem no contêiner
+  z-index: 1;
+  opacity: 1;
+  overflow: hidden; // Mantém este para cortar o excesso
 }
 
 .close {
     position: absolute;
     top: 10px;
+  
     right: 10px;
-    z-index: 2;
+    z-index: 90;
     padding-top: 10px;
     cursor: pointer;
     img {
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
     }
 }
 
@@ -160,5 +160,12 @@ $white: #ffffff;
     }
     100% {
         background-position: 0% 0%;
+    }
+}
+
+@media (min-width: 768px) {
+    .close {
+        display: block !important;
+        z-index: 9999 !important; /* Garante que ele fique acima de todos os outros elementos */
     }
 }
