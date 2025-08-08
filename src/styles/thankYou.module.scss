@@ -3,7 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("/banner.webp") no-repeat center center;
+  /*Mudar ou remover o background ao finalizar o preenchimento do Formulário*/
+  background: url("/") no-repeat center center;
   background-size: 300%;
 
   .content {
