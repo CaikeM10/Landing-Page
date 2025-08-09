@@ -59,7 +59,7 @@ export default function App({ Component, pageProps }: AppProps) {
     {/* -- TAGS OPEN GRAPH (PARA PRÉVIA EM REDES SOCIAIS) -- */}
     <meta property="og:title" content="Criação de Sites e Landing Pages | Desenvolvedor Caike Marinho" />
     <meta property="og:description" content="Desenvolvedor Web e Front-End focado em React e Next.js. Crio sites e landing pages profissionais para impulsionar o seu negócio. Fale comigo!" />
-    <meta property="og:image" content="https://caikemarinho.com.br/enviarlinkimg.png" /> {/* <--- SUA URL AQUI */}
+    <meta property="og:image" content="https://caikemarinho.com/redes.jpg" /> {/* <--- SUA URL AQUI */}
     <meta property="og:url" content="https://caikemarinho.com" />
     <meta property="og:site_name" content="Caike Marinho" />
     <meta property="og:locale" content="pt_BR" />
