@@ -1,19 +1,10 @@
 import { PrismaClient } from '@prisma/client';
 import type { NextApiRequest, NextApiResponse } from 'next';
-import nodemailer from 'nodemailer';
+import sgMail from '@sendgrid/mail';
 
 const prisma = new PrismaClient();
 
-// Configura o transporter do Nodemailer usando as variáveis de ambiente
-const transporter = nodemailer.createTransport({
-  host: process.env.EMAIL_HOST,
-  port: 465, // <-- Mude a porta para 465
-  secure: true, // <-- Mude secure para 'true'
-  auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS,
-  },
-});
+sgMail.setApiKey(process.env.SENDGRID_API_KEY as string);
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'POST') {
@@ -23,7 +14,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   try {
     const { name, email, phone, msg_send } = req.body;
 
-    // Salvar os dados no banco de dados usando o Prisma
+    // Salvar os dados no banco de dados
     const novoOrcamento = await prisma.orcamento.create({
       data: {
         name,
@@ -33,10 +24,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       },
     });
 
-    // Enviar e-mail de notificação (após salvar no banco)
-    const mailOptions = {
-      from: process.env.EMAIL_FROM, // Remetente
-      to: process.env.EMAIL_USER, // Destinatário (seu próprio e-mail)
+    // Configurar e-mail com SendGrid
+    const msg = {
+      to: process.env.EMAIL_USER as string,
+      from: process.env.EMAIL_FROM as string,
       subject: `Novo Pedido de Orçamento de ${name}`,
       html: `
         <p>Olá Caike,</p>
@@ -53,16 +44,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       `,
     };
 
-    // Tenta enviar o e-mail
+    // Tentar enviar o e-mail com SendGrid
     try {
-      await transporter.sendMail(mailOptions);
-    } catch (emailError) {
-      console.error('Erro ao enviar o e-mail:', emailError);
-      // O e-mail falhou, mas a gente ainda retorna sucesso para o formulário
-      // já que os dados foram salvos no banco.
+      await sgMail.send(msg);
+    } catch (emailError: any) {
+      console.error('Erro ao enviar o e-mail:', emailError.response?.body || emailError);
     }
 
-    // Envia uma resposta de sucesso
     return res.status(200).json({ message: 'Dados salvos e e-mail enviado com sucesso!', data: novoOrcamento });
 
   } catch (error) {
