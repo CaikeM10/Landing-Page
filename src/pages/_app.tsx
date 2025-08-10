@@ -46,11 +46,11 @@ export default function App({ Component, pageProps }: AppProps) {
         fetchUserData();
     }, []);
 
-// atualiza o título da página com o nome do usuário e a imagem ao lado do dominio 
+
     return (
         <>
           <Head>
-    <link rel="icon" href="/newfavicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
     <meta
         name="description"
         content="Desenvolvedor Web e Front-End focado em React e Next.js. Crio sites e landing pages profissionais para impulsionar o seu negócio. Fale comigo!"
