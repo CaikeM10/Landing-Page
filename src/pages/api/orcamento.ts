@@ -7,8 +7,8 @@ const prisma = new PrismaClient();
 // Configura o transporter do Nodemailer usando as variáveis de ambiente
 const transporter = nodemailer.createTransport({
   host: process.env.EMAIL_HOST,
-  port: parseInt(process.env.EMAIL_PORT as string),
-  secure: false, // Use 'true' para porta 465, 'false' para outras portas como 587
+  port: 465, // <-- Mude a porta para 465
+  secure: true, // <-- Mude secure para 'true'
   auth: {
     user: process.env.EMAIL_USER,
     pass: process.env.EMAIL_PASS,
