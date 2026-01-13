@@ -25,10 +25,9 @@ const ModalForm = ({ onClose }: { onClose: () => void }) => {
     const message = `Olá! Meu nome é ${name} e gostaria de solicitar um orçamento para meu site.`;
     const encodedMessage = encodeURIComponent(message);
 
-    const whatsappUrl = `https://wa.me/88999172635?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/5588999172635?text=${encodedMessage}`;
 
-    window.open(whatsappUrl, "_blank");
-    onClose();
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
   };
 
   return (
